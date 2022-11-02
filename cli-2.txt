@@ -1,0 +1,13 @@
+PIPES
+Download the content of "Harry potter and the Goblet of fire" using the command line from here
+sudo apt install wget
+wget + url
+mv "Harry potter and the Goblet of fire.txt" harry
+cat harry | head -3 
+cat harry | tail -10
+cat harry | grep "Harry" | wc -l
+cat harry | grep "Ron" | wc -l
+cat harry | grep "Hermione" | wc -l
+cat harry | grep "Dumbledore" | wc -l
+cat harry | head -200 | tail -101
+tr '  ' '/n'  < file_name | sort | uniq -c | wc -l
